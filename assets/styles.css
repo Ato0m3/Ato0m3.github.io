@@ -80,7 +80,23 @@ nav a:hover {
     color: grey;
 }
 
+.texteQualif {
+        margin-top: 20px;
+}
+
+.texteQualif a {
+    color: inherit;
+    font-weight: bolder;
+    text-decoration: underline #FF7416;
+}
+
+.texteQualif a:hover {
+    color: #FF7416;
+}
+
 .elementQualif {
+    display: flex;
+    justify-content: center;
     margin-top: 50px;
 }
 
@@ -99,6 +115,10 @@ nav a:hover {
 
 .surMoiTxt {
     margin-top: 20px;
+}
+
+.titreSurMoi {
+    font-weight: bolder;
 }
 
 .imageArr {
